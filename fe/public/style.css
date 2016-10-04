@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #333;
+}
+
+a {
+  color: #3b44a1;
+}
+
+.header-menu {
+  background: #06335b;
+  display: flex;
+}
+
+.header-menu li {
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  flex-grow: 1;
+}
+
+
+  .session-box li a {
+  color: #000;
+  text-decoration: none;
+  }
+.session-box li p {
+  font-size:14px;
+}
+
+.header-menu ul {
+  margin: 0;
+}
+
+.header-menu li a {
+  color: #fff;
+  width: 100%;
+  padding: 1em;
+  display: inline-block;
+  text-decoration: none;
+}
+.header-menu li a:hover {
+  color: #89c7f8;
+}
+
+
+
+/* Clean */
+.container {
+  max-width: 950px;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.header-banner {
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-position: top center;
+  height: 300px;
+}
+
+.session-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.session-item {
+  width: 32%;
+  border: 3px solid #0b73d4;
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+  cursor: pointer;
+  display: block;
+}
+
+@media all and (max-width: 1000px) {
+  .session-item {
+    width: 49%;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+
+.sessions-link {
+  display: block;
+}
+
+.sessions-title {
+  margin-bottom: 1rem;
+  color: #3b44a1;
+}
+
+.sessions-experience {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.sessions-speaker {
+  background: #0b73d4;
+  padding: 1rem;
+  color: white;
+  display: block;
+  margin: 0 -1rem;
+}
+
+.session-title {
+  margin-bottom: 1rem;
+  color: #3b44a1;
+  text-align: center;
+}
+
+.session-meta {
+  margin-bottom: 3rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.session-separator {
+  margin: 0 .5rem;
+}
+
+.session-description {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.session-description ul,
+.session-description ol {
+  padding-left: 1.5rem;
+  margin: 1rem;
+}
+
+.session-description p {
+  margin-bottom: 1rem;
+}
+
+.session-actions {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.session-form-heading {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #3b44a1;
+}
+
+.session-form {
+  margin-top: 3rem;
+}
+
+input[type="text"],
+textarea {
+  padding: .25rem;
+  line-height: 2rem;
+  font-size: 1.125rem;
+  width: 100%;
+  border: 1px solid #adacab;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #0b73d4;
+}
+
+[class^=btn-] {
+  padding: .75rem 1.25rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin-right: 2rem;
+  min-width: 150px;
+}
+
+.btn-info {
+  background: #0095ff;
+}
+
+.btn-danger {
+  background: #ff4747;
+}
+
+.btn-new {
+  background: #55ce5e;
+}
+
+.meta {
+  text-align: center;
+}
+.meta .btn-new {
+  margin-right: 0;
+  text-decoration: none;
+}
